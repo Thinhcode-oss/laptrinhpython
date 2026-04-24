@@ -1,0 +1,2 @@
+CREATE DATABASE QuanLySinhVien;
+GO
