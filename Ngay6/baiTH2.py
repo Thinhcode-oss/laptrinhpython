@@ -10,9 +10,9 @@ def giai_quyet_doi_tien(X):
     print(f"\nSo tien {X} duoc doi thanh:")
     
     for coin in denominations:
-        # Su dung toan tu chia lay nguyen // de tinh so to [cite: 7, 8]
+        # Su dung toan tu chia lay nguyen // de tinh so to 
         count = X // coin
-        # Su dung toan tu chia lay du % de tinh so tien con lai [cite: 8, 9]
+        # Su dung toan tu chia lay du % de tinh so tien con lai 
         X = X % coin
         
         # Chi in nhung loai tien co so to lon hon 0 theo yeu cau bai 20
